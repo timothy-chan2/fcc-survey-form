@@ -1,0 +1,76 @@
+body {
+  font-family: Helvetica, Georgia;
+  color: #d3d3d3;
+  background-color: #6262ff; /* Backup background color */
+  background-image: url('images/aurora.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 100%;
+}
+
+.center {
+  display: grid;
+  justify-content: center;
+  text-align: left;
+  grid-gap: 5px;
+  font-size: 1.5em;
+}
+
+.center-title {
+  display: grid;
+  justify-content: center;
+  text-align: left;
+  grid-gap: 10px;
+  font-size: 2.5em
+}
+
+.left {
+  display: grid;
+  justify-content: left;
+  grid-gap: 10px;
+  padding-bottom: 20px;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+button {
+  color: white;
+  background-color: green;
+  font-size: 1.25em;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+button:hover, button:focus {
+  background-color: #006400;
+  cursor: pointer;
+}
+
+footer {
+  font-size: 0.6em;
+  padding-top: 40px;
+}
+
+.text-box {
+  background-color: rgba(0, 0, 0, 0.62);
+  margin-left: 29%;
+  margin-right: 29%;
+  padding: 20px;
+}
+
+input, select, textarea {
+  font-size: 1em;
+  background-color: #363333;
+  color: #d3d3d3;
+}
+
+@media (max-width: 1200px) {
+  .text-box {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
