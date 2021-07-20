@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FCC: Survey Form</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="text-box">
+    <header>
+      <h1 id="title" class="center-title">Chris Hadfield Survey Form</h1>
+    </header>
+  
+    <main>
+      <p id="description" class="center italic-text font-ctrl">Thank you for taking the time to complete this survey</p>
+
+      <form id="survey-form" class="center" action="#">  
+        <div class="left">
+          <label for="name" id="name-label">Name</label>
+          <input id="name" type="text" placeholder="John Smith" required>
+        </div>
+        <div class="left">
+          <label for="email" id="email-label">E-mail</label>
+          <input id="email" type="email" placeholder="john.smith@email.com" required>
+        </div>
+        <div class="left">
+          <label for="number" id="number-label">How many times did he go into space?</label>
+          <input id="number" type="number" placeholder="7" min="0" max="80">
+        </div>
+        <div class="left">
+          <label for="dropdown">He falls within what age group?</label>
+          <select id="dropdown">
+            <option value="group1">20 to 29</option>
+            <option value="group2">30 to 39</option>
+            <option value="group3">40 to 49</option>
+            <option value="group4">50 to 59</option>
+            <option value="group5">60 to 69</option>
+            <option value="group6">70 to 79</option>
+          </select>
+        </div>
+        <div class="left">
+          <fieldset> 
+            <legend>Do you admire him?</legend>
+            <input id="positive" type="radio" name="admiration" value="yes" checked>
+            <label for="positive">Yes</label>
+            <input id="negative" type="radio" name="admiration" value="no">
+            <label for="negative">No</label>
+          </fieldset>
+        </div>
+        <div class="left">
+          <fieldset>
+            <legend>What do you like about him?</legend>
+            <div>
+              <input id="guitar" type="checkbox" value="guitar">
+            <label for="guitar">His guitar skills</label>
+            </div>
+           <input id="photos" type="checkbox" value="photos">
+            <label for="photos">His photos taken from space</label>
+          </fieldset>
+        </div>
+    
+        <div class="left">
+          <label for="comments">Additional comments?</label>
+          <textarea id="comments" rows="4" cols="50" placeholder="I want to grow a mustache like his"></textarea>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+   </main>
+
+  <footer>
+    Background image from https://www.pexels.com/photo/aurora-borealis-1933239
+  </footer>
+</body>
+</html>
