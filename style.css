@@ -70,6 +70,8 @@ input, select, textarea {
 
 textarea {
   width: 600px;
+  height: 120px;
+  resize: none;
 }
 
 @media (max-width: 1600px) {
