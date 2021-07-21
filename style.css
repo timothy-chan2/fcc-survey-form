@@ -68,9 +68,27 @@ input, select, textarea {
   color: #d3d3d3;
 }
 
-@media (max-width: 1200px) {
+textarea {
+  width: 600px;
+}
+
+@media (max-width: 1600px) {
+  .text-box {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media (max-width: 1100px) {
   .text-box {
     margin-left: 10%;
     margin-right: 10%;
+  }
+}
+
+@media (max-width: 850px) {
+    textarea {
+      width: auto;
+    }
   }
 }
