@@ -92,10 +92,10 @@ textarea {
   textarea {
     width: auto;
   }
-  center-title {
-    font-size: 1.2em;
+  .center-title {
+    font-size: 1.4em;
   }
-  p {
-    font-size: 0.8em;
+  #description {
+    font-size: 1.2em;
   }
 }
