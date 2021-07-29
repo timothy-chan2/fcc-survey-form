@@ -98,6 +98,10 @@ textarea {
   #description {
     font-size: 1.2em;
   }
+  #positive, #negative, #guitar, #photos {
+    width: 18px;
+    height: 18px;
+  }
 }
 
 @media (max-width: 450px) {
