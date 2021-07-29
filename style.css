@@ -83,8 +83,8 @@ textarea {
 
 @media (max-width: 1100px) {
   .text-box {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 }
 
@@ -107,11 +107,7 @@ textarea {
   }
 }
 
-@media (max-width: 450px) {
-  .text-box {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
+@media (max-width: 570px) {
   textarea {
     width: 270px;
   }
@@ -126,5 +122,15 @@ textarea {
   }
   footer {
     font-size: 1em;
+  }
+}
+
+@media (max-width: 355px) {
+  textarea {
+    width: auto;
+  }
+  .text-box {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
