@@ -102,6 +102,9 @@ textarea {
     width: 18px;
     height: 18px;
   }
+  #photos {
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 450px) {
